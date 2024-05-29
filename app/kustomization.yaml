@@ -3,6 +3,3 @@ kind: Kustomization
 resources:
   - service.yaml
   - deployment.yaml
-replicas:
-- name: myapp
-  count: 2
