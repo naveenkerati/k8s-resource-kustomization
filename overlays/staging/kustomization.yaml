@@ -4,5 +4,5 @@ resources:
   - ../../base
 patchesStrategicMerge:
   - patch-replicas.yaml
-namePrefix: dev-
+namePrefix: stg-
 namespace: kustomziation-dev
