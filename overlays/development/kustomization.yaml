@@ -6,3 +6,5 @@ patchesStrategicMerge:
   - patch-replicas.yaml
 namePrefix: dev-
 namespace: kustomziation-dev
+commonLabels:
+  owner: alice
