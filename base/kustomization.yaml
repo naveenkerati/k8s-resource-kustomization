@@ -3,6 +3,4 @@ kind: Kustomization
 resources:
   - service.yaml
   - deployment.yaml
-commonLabels:
-  owner: alice
 
