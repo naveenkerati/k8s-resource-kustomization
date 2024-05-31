@@ -25,3 +25,11 @@ transformers:
     - path: spec/template/metadata/labels
       create: true
       kind: Servcie
+---
+apiVersion: builtin
+kind: PatchTransformer
+metadata:
+  name: not-important-to-example
+patch: '[{"op": "replace", "path": "/spec/template/spec/containers/0/image", "value": "nginx:1.26.1"}]'
+target:
+  kind: Deployment
