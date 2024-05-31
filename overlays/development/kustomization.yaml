@@ -7,4 +7,4 @@ patchesStrategicMerge:
 namePrefix: dev-
 namespace: kustomziation-dev
 commonLabels:
-  owner: alice
+  environment: development
