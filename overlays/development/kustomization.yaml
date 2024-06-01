@@ -26,7 +26,6 @@ transformers:
       create: true
       kind: Servcie
 ---
-apiVersion: builtin
 kind: PatchTransformer
 metadata:
   name: not-important-to-example
